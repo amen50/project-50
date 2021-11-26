@@ -6,7 +6,7 @@ function App() {
          <a href="/">React Shopping Cart</a>
       </header>
       <main>
-        Product List
+        Product List test
       </main>
       <footer>
         all right are reiseved
