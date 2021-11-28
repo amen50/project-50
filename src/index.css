@@ -1,14 +1,21 @@
-html{
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+html {
   font-size: 62.5%;
   box-sizing: border-box;
 }
-body, #root{
+body,
+#root {
   height: 100vh;
   margin: 0;
 }
-body, input, select, textarea{
+body,
+input,
+select,
+button,
+textarea {
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
   font-size: 1.6rem;
-  font-family:Helvetica, Arial, sans-serif;
 }
 .grid-container
 { 
@@ -109,7 +116,6 @@ footer{
   flex: 1;
 
 }
-
 .prodct-price div{
   
   font-size: 2rem;
@@ -117,13 +123,13 @@ footer{
 
 .button{
   padding: 1rem;
-  border: 1rem #c0c0c0 solid;
-  background-color: blue;
+  border: 0.1rem #c0c0c0 solid;
+  background-color: #ffffff ;
   cursor: pointer;
 }
 .button:hover{
-  border: #ff800f;
+  border: 0.1rem #808080  solid;
 }
 .button.primary{
-  background-color:darkslateblue;
+  background-color: #ffc000;
 }
