@@ -64,7 +64,7 @@ footer{
 }
 
 .main{
-  flex: 30 60rem;
+  flex: 3 60rem;
 
 }
 
@@ -171,4 +171,43 @@ footer{
 }
 .cart-items li div:last-child{
   flex: 1;
+}
+.right{
+  text-align: right;
+}
+.total{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.total >div{
+
+  font-size: 2rem;
+}
+.total >div,
+.total > button{
+  flex:1;
+  
+}
+.form{
+  width: 100%;
+}
+.form-container{
+  padding: 0;
+  list-style-type: none;
+  width: 100%;
+}
+
+.form-container >li{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  justify-content: center;
+}
+input{
+  padding: 1rem;
+  border: 00.1rem #c0c0c0 solid;
+  
+
 }
