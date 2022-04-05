@@ -94,7 +94,7 @@ footer{
 .product{
   display:flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   height: 100%;
 
 }
@@ -104,23 +104,19 @@ footer{
 
 
 }
-
-.prodct-price{
+.product-price {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.prodct-price div,
-.prodct-price button{
+.product-price div,
+.product-price button {
   text-align: center;
   flex: 1;
-
 }
-.prodct-price div{
-  
+.product-price div {
   font-size: 2rem;
 }
-
 .button{
   padding: 1rem;
   border: 0.1rem #c0c0c0 solid;
@@ -132,6 +128,7 @@ footer{
 }
 .button.primary{
   background-color: #ffc000;
+  
 }
 
 .filter{
@@ -210,4 +207,51 @@ input{
   border: 00.1rem #c0c0c0 solid;
   
 
+}
+/* Product Details */
+.product-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-height: 96vh;
+}
+.product-details img {
+  max-height: 100vh;
+  max-width: 46rem;
+  margin: 0 auto;
+}
+.product-details-description {
+  flex: 1 1;
+  margin: 1rem;
+}
+.close-modal {
+  position: absolute;
+  right: 1rem;
+  top: 2.5rem;
+  z-index: 1000;
+}
+
+.order-details{
+  display: flex;
+  flex-direction:  column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.order-details li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order-details li div{
+  padding: 10px;
+}
+.order-details .items{
+  text-align: right;
+  padding: 0;
+}
+.success message{
+  color: green
 }
